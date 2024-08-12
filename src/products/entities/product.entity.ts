@@ -31,7 +31,7 @@ export class Product {
         description: 'Product Price',
     })
     @Column('float', {
-        default: 0,
+        default: 0, 
     })
     price: number;
     
